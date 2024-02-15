@@ -1,16 +1,59 @@
-.img-width{
-    width: 200px;
+.font-family{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.logo-img{
-    width: 260px;
+.font-size{
+    font-size: xx-large;
 }
-#carouselExampleIndicators{
-    max-width: 100%;
-    /* height: 416px; */
+.font-size-s{
+    font-size: larger;
 }
-#body{
-    @font-face {
-        font-family: futurak.ttf;
-        src: url(asset/futurak.ttf);
+.green{
+    background-color: #1aa11a;
+    border: 1px solid #1aa11a;
+}
+#iconn{
+    color: white;
+    display: none;
+    font-size: 30px;
+}
+
+
+@media(max-width:720px){
+    #iconn{
+        display: block;
+        
+
     }
+    #img{
+        display: flex ;
+        justify-content: center;
+
+    }
+    .hide{
+        display: none;
+
+
+    
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    #img-1{
+        display: block;
+    }
+    .center{
+        text-align: center;
+    }
+    .stretch-0{
+        width: 65%;
+        height: 85%;
+    }
+    
+
+}
+@media(min-width:720px){
+    #nav{
+        display: none;
+    }
+    
 }
